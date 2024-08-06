@@ -1,0 +1,34 @@
+Brief:
+Variations on the Higher-Lower card game have existed your many years and some have even turned into television shows where multiple players compete against each other.
+
+Your task is to create a Multiplayer Card game that allows 3 players to compete against each other using the following rules.
+
+•	An initial card is drawn (Ace to King).
+•	An initial money bank is established. 
+•	The first player chooses whether the next card will be higher or lower than the previously drawn card shown.
+•	If they are correct, 
+o	Money gets added to a game bank.
+o	The player chooses whether to collect the banked money and pass control over to the next player or play again.
+
+•	If they are incorrect,
+o	Control passes to the next player
+
+•	The last drawn card becomes the new compared card .
+•	A player can only collect the bank if they have guessed correctly at least one on their current turn.
+
+Extra Features
+•	Each player will receive a certain number of ‘swaps’ for the game which will allow then to swap the currently shown card for a hopefully better one before they make their guess. 
+•	The players should be able to choose the length of each round and the number of rounds to play. E.g. 3 round with 20 cards each. 
+•	The player in control at the end of the round automatically receiving the money left in the bank. 
+•	The winner of the game is the player with the most banked money at the end.
+
+
+IMPORTANT: It is possible to create a solution to this brief that does not meet the expectations of the standard. For your work to qualify for this standard you will need to include at least TWO
+ of the following programming concepts in your solution. 
+
+•	programming or writing code for a graphical user interface (GUI)
+•	reading from, or writing to, files or other persistent storage
+•	object-oriented programming using class(es) and objects defined by the student 
+•	using types defined by the student 
+•	using third party or non-core API, library or framework 
+•	using complex data structures (e.g. stacks, queues, trees).

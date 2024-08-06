@@ -1,0 +1,19 @@
+Conenct Protocol:
+    Send connection package
+    Send name
+    Recv set_name
+
+Player List Protocol:
+        # type   /maxplayers:[names] seperated by ' '
+    recv "players/8:name1 name2 name3" Seperated by ' ' 
+
+Game Starting Protocol:
+    Recv "start" phrase from package
+
+Buffer Protocol:
+    Server crashes if waiting for client reply but takes too long so packet sent with:
+    "..." represents that the client is still calculating a response
+
+
+Name blacklist:
+    Names containnig non utf-8 chars, names with spaces will get stripped
