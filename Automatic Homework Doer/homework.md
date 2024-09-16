@@ -1,0 +1,5 @@
+## Homework Doer
+During my highschool years I didn't particulaly like my spanish homework, we were given a couple hours to do each week and I wanted to spend time at home doing other things. \n
+The script worked by relying on a preestablished Optical character reader (OCR) to read the screen where the question was displayed, get the question wrong, is told the correct answer, remembers it and will get the correct answer for the next 3 times before the homework server would mark the word as "learned". \n
+This script was slightly inneficient as if you know a word in language perfect you can mark it learned in 2 correct guesses, but if you get it wrong once you must get it right 3 times, therefore making it essentially twice as slow as doing it yourself - although then I would have to do my homework - \n
+For the record I would like to say that there is a competition anually that gives you 7 days to get the highest score as possible in language perfect, I did not use this tool on that for a) that's cheating b) the program was too slow to get more of a grade than others as the OCR takes a while 

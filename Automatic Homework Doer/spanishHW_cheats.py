@@ -114,8 +114,5 @@ def define_area():
     return((start_coords[0], start_coords[1], width, height))
 
 
-
-
-
 if __name__ == "__main__":
     main()
